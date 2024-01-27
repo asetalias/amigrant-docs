@@ -1,6 +1,6 @@
 # Amigrant Documentation
 
-This documentation contains the project plan, project details, contribution guidelines, and conventions used for the [Amigrant].
+This documentation contains the project plan, project details, contribution guidelines, and conventions used for [Amigrant]().
 
 ## Local Development
 
