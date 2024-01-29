@@ -24,7 +24,7 @@ To get started with contribution to documentation locally, follow these steps:
 1. Start the development server:
 
     ```shell
-    bun next dev
+    bun dev
     ```
 
 1. Open your browser and visit `http://localhost:3000` to view the website.
