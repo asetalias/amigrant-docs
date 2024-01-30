@@ -51,7 +51,7 @@ export default {
   },
 
   chat: {
-    link: "https://discord.gg/kEv4QbWshr",
+    link: "https://discord.gg/vdYYXPmpBh",
   },
 
   head: (
