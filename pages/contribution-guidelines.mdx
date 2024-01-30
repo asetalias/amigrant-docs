@@ -47,6 +47,110 @@ Now, from the [project list](), fork a project that you want to contribute to!
 
 ## Conventions
 
+### Conventional commits
+
+Conventional Commits is a specification for writing standardized and semantic commit messages in Git. It provides a set of rules for creating commit messages in a consistent and meaningful way. The goal is to make it easier to understand the history of a project, automate versioning, and generate release notes.
+
+#### Components of conventional commits
+
+- **Type (required):**
+    Describes the purpose of the commit.
+    Examples: feat (feature), fix (bugfix), chore (routine tasks), docs (documentation), etc.
+- **Scope (optional):**
+    Describes the module, component, or area of the project related to the commit.
+    Example: auth, frontend, backend, etc.
+- **Message (required):**
+    Provides a concise and clear description of the changes made in the commit.
+
+#### Types of commits
+
+- **feat:** A new feature for the user or the application.
+
+- **fix:** A bug fix for the user or the application.
+
+- **chore:** Routine tasks, maintenance, or housekeeping changes that are not related to user-facing features or bug fixes.
+
+- **docs:** Changes to the documentation.
+
+- **style:** Changes that do not affect the meaning of the code (white-space, formatting, missing semi-colons, etc.).
+
+- **refactor:** Code refactoring without any functional changes.
+
+- **test:** Adding or modifying tests.
+
+- **build:** Changes that affect the build system or external dependencies.
+
+- **ci:** Changes to the continuous integration configuration and scripts.
+
+- **perf:** Performance improvements.
+
+#### Examples
+
+- feat(auth): add user authentication
+- fix(frontend): resolve issue with responsive layout
+- chore(docs): update installation instructions
+
+### Linting and Formatting
+
+Linting and formatting are essential practices in software development that help maintain code quality, consistency, and readability. These processes are often automated using specific tools to enforce coding standards and catch potential issues early in the development cycle.
+
+#### Linting
+
+Linting involves analyzing code for potential errors, bugs, or stylistic issues. Linters are tools that statically analyze source code to identify and flag patterns that might lead to runtime errors or are against coding conventions. Linters provide developers with feedback on their code, helping them adhere to best practices and maintain a consistent codebase.
+
+##### Examples:
+
+- **ESLint:** A popular JavaScript and TypeScript linter that helps identify and fix issues related to code quality and style.
+
+```bash
+# Install ESLint
+npm install eslint --save-dev
+
+# Run ESLint
+npx eslint yourFile.js
+```
+- **flake8:** A linting tool for Python that checks for PEP 8 style guide violations and other code quality issues.
+
+```bash
+# Install flake8
+pip install flake8
+
+# Run flake8
+flake8 your_file.py
+```
+#### Formatting
+Code formatting focuses on the appearance of the code, ensuring a consistent style throughout a codebase. Automated code formatters apply predefined rules to format the code, making it visually consistent and reducing debates about coding styles within a team. This helps maintain a clean and readable codebase.
+
+#### Examples:
+- **Black:** A Python code formatter that reformats code in a consistent style, emphasizing a "blackened" style.
+
+```bash
+# Install Black
+pip install black
+
+# Run Black
+black your_file.py
+```
+
+- **Prettier:** A JavaScript/TypeScript code formatter that ensures consistent code style across the project.
+
+```bash
+# Install Prettier
+npm install --save-dev prettier
+
+# Run Prettier
+npx prettier --write yourFile.js
+```
+
+- **gofmt:** The official Go language formatter that automatically formats Go source code.
+
+```bash
+# Run gofmt
+gofmt -w your_file.go
+```
+
+Both linting and formatting play crucial roles in maintaining code quality and consistency, contributing to better collaboration and overall project maintainability.
+
 ## Project structure
 
 <Callout type="info">
